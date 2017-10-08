@@ -96,7 +96,7 @@ def main():
     argparser = argparse.ArgumentParser()
     argparser.add_argument(
         '--image-prefix',
-        default='jupyterhub/k8s-'
+        default='analyticsdojo/jupyter-'
     )
     subparsers = argparser.add_subparsers(dest='action')
 
